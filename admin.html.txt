@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ManaMart Admin</title>
+
+
+  <style>
+    body{
+      font-family:Arial;
+      max-width:600px;
+      margin:auto;
+      padding:20px;
+    }
+
+
+    input{
+      width:100%;
+      padding:12px;
+      margin:10px 0;
+    }
+
+
+    button{
+      padding:12px 20px;
+    }
+  </style>
+
+
+</head>
+
+
+<body>
+
+
+<h1>ManaMart Admin Panel</h1>
+
+
+<input id="name" placeholder="Product Name">
+
+
+<input id="price" type="number" placeholder="Price">
+
+
+<input id="category" placeholder="Category">
+
+
+<input id="image" placeholder="Image URL">
+
+
+<button onclick="addProduct()">
+Add Product
+</button>
+
+
+<h2>Products</h2>
+
+
+<div id="list"></div>
+
+
+<script src="admin.js"></script>
+
+
+</body>
+</html>
